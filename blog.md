@@ -15,3 +15,7 @@ Wed 29 July 13:45
 
 * Today's goals:
     * Familiarise myself with github & set out python foundations
+
+* Achieved:
+    * Created Repository and cloned locally onto device
+    * Getting Familiar myself with the fastf1 package
