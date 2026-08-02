@@ -26,7 +26,7 @@ Sat 1 Aug 12:12
 * Since I last approached this project I've been thinking more about what I could possibly apply this application to and I concluded that it would be interesting to investigate two aspects of the sport:
     * Investigate how the changes to the distribution of how the car receives power (ICE vs battery) impacts the nature of the sport and how 
     * Investigate George Russell's claims that Merc is providing the younger, newer driver Kimi Antonelli a better performing car this season to explain what people believe to be a lackluster performance following Hamiltons departure
-* These goals I believe give my work a clear direction and give me a clear direction in what I need to learn in order to find conclusions to these investigatiosn
+* These goals I believe give my work a clear direction for what I need to learn in order to find conclusions to these investigatiosn
 
 * Today's goals:
     * Read up on fastf1 documentation regarding telemery 
@@ -46,3 +46,63 @@ Sat 1 Aug 12:12
     * Familiarising myself with matplotlib again
     ![alt text](ANTvsRUS_tr.png)
     ![alt text](HAM_Throttle.png)
+
+Sun 2 Aug 13:00
+* First time working in a cafe :) .
+* Now that I have an idea of what I'm using my application for, I'm going to look deeper into both of my investigations. Ultimately, depending on how much time I have I may have to compromise and choose one or the other (the power problem).
+* If time allows, I'll begin drawing up some graphs for comparison and if possible begin drawing up tracks to investigate the claims even more.
+* Considering on making a proper document in LaTeX to relearn that aswell
+
+* After doing more research, I think it will be smarter to increase the scope of how the regulations have changed the aspects of racing. So much has changed in the car this year that I think it is futile to try and compare specifically how the changes to the PU have impacted the driving dynamics of the car when there are so many confounders that could possibly justify reasons in changes to laptimes, sector times, strategy etc.
+* After even more research. I've learnt a lot about how drastic these regulations are. Depending on the track features such as MOM and the narrower track width could imapact how drivers behave. I believe to make this test as fair as possible, we should prioritise qualifying sessions across a variety to of tracks to properly observe how things have changed. tracks like monza with longer straights will benefit with narrower tires as the aerodynamical profile is reduced whereas tracks like Monaco will suffer as the smaller contact patch means each tire will get hotter quickly as the weight is spread across a smaller area.
+
+* Today's Goals:
+    * Develop deeper understanding of the 2026 regulation changes and learn how that impacts how drivers compete in races
+    * Document this information and identify what sections of race strategy have been impacted
+    * Begin drawing up some graphs to demonstrate this change 
+    * If time permits, begin learning how to visualise this data as entities on a track so we can observe the difference in speed.
+
+* Notes:
+    * 2026 Regulation Changes:
+        * Nimble Car Concept (NCC):
+                * Weight: 724kg + Tyre weight (-30kg) minimum target 
+                * Wheelbase: 3400mm (-200mm) 
+                * Width: -100mm
+                * Floor Width: -150mm
+                * Front Wing: -100mm
+            * The NCC clearly has the intentions of trying to shrink the size of the newer cars in order reduce the growth of the cars over the years. 
+            * Shorter wheelbase allows the car to rotate easier through corners which will allow drivers to apply throttle sooner out of corners. However, the shorter wheelbase can cause the car to be twitchy at high speeds, requiring more input from drivers.
+            * Reduced Weight means shorter breaking distances. In a simple example, F = ma, assuming braking force is constant, mass is reduced to the deceleration is greater. This means brakes can be applied later whilst still reaching the maximum speed in corner entry
+            * Reduced Width means sharper steering but reduced grip due to greater weight transfer 
+            * Adjustments to floor width and front wing reduce wake turbulence, allowing competing cars to follow each other more closely
+        * Changes to the Power Unit
+                * 2014 - 2025: MGU - H (Motor Generator Unit Heat) & MGU - K (Motor Generator Unit Kinetic). 550kW produced from the ICE element and 120kW from battery power.
+                * 2026 Onwards: MGU - H removed & MGU - K. 400kW produced from the ICE element (-150kW) and 350kW from battery power.
+            * Lorem Ipsum
+        * New Manual Overtake Mode
+                *   Drivers within 1s of the lead car can deploy all of the available power in the electrical PU, giving them a significant power delta which can facilitate overtakes.
+                * Power delta is also magnified by the tapering of electrical power. All cars past 290km/h begin tapering their electrical power until it runs purely on ICE. This combined with manual overtake means that the power differential in the straights during MOM is greater.
+            * Lorem Ipsum
+            * Clipping
+        * Active Aero Updates
+                * Active Aero is now availabkle to everyone at everypoint on the track with capacity to change at predetermined points on track to adjust for straight-line performance or cornering ability
+            * Should see decrease in qualifying times
+        * Tire Dimensions:
+                * Front Tire Width:
+                    * -25mm
+                    * -30mm
+            * Reduces tire contact patch which depending on the track could effect tire life
+    * What changes we expect to see in sectors & laptimes
+        * Faster corner exit speeds & initial straight line accel
+        * Slower top end speeds
+        * longer top end
+
+
+* References:
+    * FIA Regulation Press Release [02/07/26] https://www.fia.com/news/f1s-new-era-everything-you-need-know-about-how-fia-making-formula-1-more-competitive-more
+    * Grandprixpal 2026 Technical Series [02/07/26] https://www.grandprixpal.com/blog/f1-2026-car-dimensions
+
+* Achieved: 
+    * Heavy research into documenting the regulation changes of 2026, learning more about the behaviour of the cars fro the previous generation and how they compare with new regulations and their impact on how drivers maneouver around the track.
+    * Establishing what to expect with new rule changes in terms of laptime and sector performance
+    * Research ballooned so no initial comparisons could be made
