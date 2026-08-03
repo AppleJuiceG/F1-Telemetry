@@ -7,7 +7,7 @@ import fastf1
 import fastf1.plotting
 
 # Finding the data for the race we want to analyse
-session = fastf1.get_session(2026, "Silverstone", "R")
+session = fastf1.get_session(2026, "Singaor", "R")
 session.load()
 
 """ laps = session.laps

@@ -54,7 +54,7 @@ Sun 2 Aug 13:00
 * Considering on making a proper document in LaTeX to relearn that aswell
 
 * After doing more research, I think it will be smarter to increase the scope of how the regulations have changed the aspects of racing. So much has changed in the car this year that I think it is futile to try and compare specifically how the changes to the PU have impacted the driving dynamics of the car when there are so many confounders that could possibly justify reasons in changes to laptimes, sector times, strategy etc.
-* After even more research. I've learnt a lot about how drastic these regulations are. Depending on the track features such as MOM and the narrower track width could imapact how drivers behave. I believe to make this test as fair as possible, we should prioritise qualifying sessions across a variety to of tracks to properly observe how things have changed. tracks like monza with longer straights will benefit with narrower tires as the aerodynamical profile is reduced whereas tracks like Monaco will suffer as the smaller contact patch means each tire will get hotter quickly as the weight is spread across a smaller area.
+* After even more research. I've learnt a lot about how drastic these regulations are. Depending on the track, features such as MOM and the narrower track width could impact how drivers behave. I believe to make this test as fair as possible, we should focus on qualifying sessions across a variety of tracks to properly observe how things have changed. tracks like monza with longer straights will benefit with narrower tires as the aerodynamical profile is reduced whereas tracks like Monaco will suffer as the smaller contact patch means each tire will get hotter quickly as the weight is spread across a smaller area. Considering a variety of tracks can help get a bigger perspective on what has changed on a macro scale.
 
 * Today's Goals:
     * Develop deeper understanding of the 2026 regulation changes and learn how that impacts how drivers compete in races
@@ -106,3 +106,16 @@ Sun 2 Aug 13:00
     * Heavy research into documenting the regulation changes of 2026, learning more about the behaviour of the cars fro the previous generation and how they compare with new regulations and their impact on how drivers maneouver around the track.
     * Establishing what to expect with new rule changes in terms of laptime and sector performance
     * Research ballooned so no initial comparisons could be made
+
+Mon 3 Aug 17:12
+* Good afternoon :)
+* Short session today to finish what I intended to complete yesterday.
+* I've been looking into the F1 Techtalk to help develop the depth of my knowledge and identify specific ways in how teams engage with the new regulations. 
+    * Another point regarding fairness, a control variable should be who is the driver
+
+* Today's Goals:
+    * Draw up some initial comparison graphs to see the difference and make some initial observations
+    * Learn how to visualise the difference in laptimes using the fastf1 library 
+
+* Notes:
+    * The API FastF1 uses doesn't appear to have access to the telemetry data for 2026 but has functionality to access locally stored data so will have to find data required elsewhere

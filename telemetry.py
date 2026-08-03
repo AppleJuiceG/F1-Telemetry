@@ -9,7 +9,7 @@ import fastf1.plotting
 ######################################################
 # Comparing speed traces of two drivers in a race ####
 ######################################################
-""" 
+
 # Calling session data
 session = fastf1.get_session(2025, 'Japan', 'R')
 session.load()
@@ -40,11 +40,8 @@ ax.set_xlabel('Distance in meters')
 ax.set_ylabel('Speed in km/h')
 
 # cleaning up
-ax.legend()
-plt.suptitle("Best Lap Speed Trace Comparison \n"
-             f"{session.event['EventName']} {session.event.year}")
-plt.savefig("ANTvsRUS_tr.png")
-plt.show() """
+session25.load(telemetry=True)
+session26.load(telemetry=True)
 
 ############################################
 # Plotting throttle and braking traces  ####
