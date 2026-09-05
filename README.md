@@ -1,5 +1,6 @@
 # F1-Telemetry
-Summer Python Project analysing F1 Telemetry and visualising the data in real time.
+Short Ongoing Project analysing how the FIA's 2026 regulations have affected overall performance of cars using telemetry data.
 
-The project uses the data source FastF1 for analysis
-link:
+Rough though experiment to deduce how laptime characteristics have changed and what could be responsible for changes in behaviour.
+
+Read blog for more granular analysis.
